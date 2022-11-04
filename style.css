@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(72, 61, 139);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 99%;
+    height: 100%;
+}
+
+#userinput {
+    border-radius: 7px;
+    border: none;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 85%;
+    margin-left:7.5%;
+    line-height: 100px;
+    margin-bottom:20px;
+}
+
+#output {
+    border-radius: 7px;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 85%;
+    margin-left:7.5%;
+    height: 100px;
+}
+
+h1 {
+    color:white;
+    text-shadow: rgb(44, 37, 88) 0px 4px;
+}
+
+h1:hover {
+    text-shadow: rgb(44, 37, 88) 0px 0px;
+    transition-duration: 0.3s;
+}
+
+hr {
+    width: 99%;
+}
+
+h1:active {
+    text-shadow: rgb(44, 37, 88) 0px -4px;
+    transition-duration: 0.3s;
+}
